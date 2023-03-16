@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hospital Appointment Booking</title>
+     {% load static %}
+  <link rel="stylesheet" type="text/css" href= "static/ok.css">
+  </head>
+  <body>
+    <h1>Hospital Appointment Booking</h1>
+    <form action="book_appointment.php" method="post">
+      <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required>
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+       <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+      <label for="date">Appointment Date:</label>
+      <input type="date" id="date" name="date" required><br><br>
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required><br><br>
+      <label for="symptoms">Symptoms:</label>
+      <textarea id="symptoms" name="symptoms" required></textarea>
+      <input type="submit" value="Book Appointment">
+    </form>
+  </body>
+</html>
