@@ -4,12 +4,16 @@
 <html>
   <head>
     <title>Appointment Confirmation</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href= "static/toke.css">
   </head>
   <body>
+    <div class="container">
     <h1>Appointment Confirmation</h1>
     <p>Your appointment has been booked.</p>
     <p>Your token number is: {{ token_number }}</p>
     <script src="newapp/js/appointment.js"></script>
+    </div>
   </body>
 </html>
-  
+    

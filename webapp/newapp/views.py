@@ -11,7 +11,8 @@ def hi(request):
 @transaction.atomic
 def book_appointment(request):
     if request.method == 'POST':
-        name = request.POST['firstName'] + ' ' + request.POST['lastName']
+        firstname = request.POST['firstName'] 
+        lastname = request.POST['lastName']
         age = request.POST['age']
         email = request.POST['email']
         phone = request.POST['phone']
@@ -21,7 +22,8 @@ def book_appointment(request):
         # Generate a random token number
         token_number = random.randint(1, 100)
         appointment = Appointment(
-            name=name,
+            firstname=firstname,
+            lastname=lastname,
             age=age,
             email=email,
             phone=phone,

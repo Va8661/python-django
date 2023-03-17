@@ -1,0 +1,42 @@
+/* Set body margin and font */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Set page header styling */
+  h1 {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin-top: 0;
+  }
+  
+  /* Set page content container styling */
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Set paragraph styling */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Set token number paragraph styling */
+  .token-number {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  /* Set appointment.js script styling */
+  script {
+    display: none;
+  }
+  

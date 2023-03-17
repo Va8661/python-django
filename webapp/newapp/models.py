@@ -2,7 +2,8 @@ from django.db import models
 
 # Create your models here.
 class Appointment(models.Model):
-    name = models.CharField(max_length=200, default='')
+    firstname = models.CharField(max_length=200, default='')
+    lastname = models.CharField(max_length=200, default='')
     age = models.PositiveIntegerField(default=0)
     email = models.EmailField()
     phone = models.CharField(max_length=10)

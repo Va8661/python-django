@@ -4,9 +4,10 @@ from .models import Appointment
 class AppointmentForm(forms.ModelForm):
     class Meta:
         model = Appointment
-        fields = ['name', 'age', 'email', 'phone', 'date', 'time', 'symptoms']
+        fields = ['firstname', 'lastname', 'age', 'email', 'phone', 'date', 'time', 'symptoms']
         labels = {
-            'name': 'Full Name',
+            'firstname': 'Full Name',
+            'lastname': 'Full Name',
             'age': 'Age',
             'email': 'Email',
             'phone': 'Phone Number',
