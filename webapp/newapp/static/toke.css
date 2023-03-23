@@ -7,7 +7,7 @@ body {
   /* Set page header styling */
   h1 {
     text-align: center;
-    background-color: #4CAF50;
+    background-color: #3c5488;
     color: white;
     padding: 20px;
     margin-top: 0;
@@ -15,9 +15,11 @@ body {
   
   /* Set page content container styling */
   .container {
-    max-width: 600px;
+    width: 500px;
     margin: auto;
     padding: 20px;
+    background-color: #277bcf;
+    border: 10px solid #b64444;
   }
   
   /* Set paragraph styling */
@@ -27,7 +29,7 @@ body {
   }
   
   /* Set token number paragraph styling */
-  .token-number {
+  .token_number {
     font-weight: bold;
     font-size: 50px;
     margin-top: 20px;
